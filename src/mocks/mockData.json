@@ -1,0 +1,7 @@
+{
+  "users": [
+    { "email": "test@gmail.com", "password": "password123" },
+    { "email": "user1@gmail.com", "password": "securePass1" },
+    { "email": "user2@gmail.com", "password": "myStrongPass" }
+  ]
+}

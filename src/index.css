@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition-colors duration-500 ease-in-out;
+}
+
+@layer base {
+  body {
+    @apply bg-background;
+  }
+}
+
+.light {
+  --primary: 25, 27, 38;
+  --secondary: 120, 139, 165;
+  --authBackground: 255, 255, 255;
+  --headerBg: 246, 248, 251;
+  --background: 246, 248, 251;
+  --border: 222, 228, 237;
+  --hover: 240, 240, 240;
+  --errorText: 220, 38, 38;
+  --errorSubtitle: 180, 40, 40;
+  --buttonBg: 255, 255, 255;
+  --buttonText: 25, 27, 38;
+}
+
+.dark {
+  --primary: 255, 255, 255;
+  --secondary: 200, 215, 235;
+  --authBackground: 25, 27, 38;
+  --headerBg: 34, 40, 52;
+  --background: 30, 35, 45;
+  --border: 123, 133, 149;
+  --hover: 51, 58, 73;
+  --errorText: 245, 96, 86;
+  --errorSubtitle: 255, 120, 120;
+  --buttonBg: 51, 58, 73;
+  --buttonText: 255, 255, 255;
+}
